@@ -400,7 +400,7 @@ if not os.path.exists('plots'):
     os.makedirs('plots') 
 
 start = time.time()
-random.seed(53)
+random.seed(3)
 best_solution, best_cost, VND_iterator, search_trajectory = VND(ff_dist_vehicles)
 print(f"Best cost: {Fore.GREEN}{best_cost}{Style.RESET_ALL}")
 print(f"Number of vehicles: {len(best_solution)}")
