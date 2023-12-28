@@ -12,6 +12,6 @@ Three move types are used for local search:
 
 The neighborhood types are then fed inside a VND (Variable Neighborhood Descent) algorithm, which is a metaheuristic for solving optimization problems. The algorithm starts with a random solution and then iteratively moves to the best solution in the neighborhood. The algorithm stops when no better solution is found in the neighborhood.
 
-**Note**: At each run, the algorithm might produce a different solution due to the stochasticity introduces inside the two-opt move logic. So far, the best cost obtained is **53007.12674238351** (tonokilometers).
+**Note**: At each run, the algorithm might produce a different solution due to the stochasticity introduced inside the two-opt move logic. So far, the best cost obtained is **53007.12674238351** (tonokilometers).
 
 > The solution can be found on the requested format inside the folder `solutions/`, while also a corresponding plot of the vehicle routes of the solution can be found inside the folder `plots/`.
